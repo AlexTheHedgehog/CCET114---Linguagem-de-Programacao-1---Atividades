@@ -1,2 +1,2 @@
-porra = 20
-print(' %3d' %porra)
+mano = 20
+print(' %3d' %mano)

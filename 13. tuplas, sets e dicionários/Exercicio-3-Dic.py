@@ -10,4 +10,4 @@ for i in 'aeiou':
         dic[i] = frase.count(i)
 
 for i in dic.keys():
-    print(f'''Quantidade da vogal {i} = {dic[i]}''')
+    print(f'Quantidade da vogal {i} = {dic[i]}')

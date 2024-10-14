@@ -42,3 +42,9 @@ print(vogais_todas)
 print(vogais_unicas)
 #Com dicionários
 vogais_dict = {i:i.upper() for i in frase if i in 'aeiou'}
+#Exemplo para criar uma função geradora
+num = [1,2,3,4,5,6,7,8,9,10]
+geradora = (i*i for i in num)
+print(geradora)
+for g in geradora:
+    print(g)

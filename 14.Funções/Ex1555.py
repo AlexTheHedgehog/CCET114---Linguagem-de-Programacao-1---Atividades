@@ -9,7 +9,8 @@ for i in range(n):
     lista['Beto'] = (lambda a, b: 2*(a**2) + (5*b)**2) (x, y)
     lista['Carlos'] = (lambda a, b: (-100)*a + b**3) (x, y)
     
-    for j, k in zip(lista.keys(), lista.values()):
+    #for j, k in zip(lista.keys(), lista.values()):
+    for j, k in lista.items():
         if k > maior:
             maior = k
             maior_nome = j
